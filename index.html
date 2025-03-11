@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Comidas Típicas de El Salvador</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f8e1c4;
+            color: #5a3d2b;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('imagenes/fondo-textura.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+        nav {
+            background: #8B4513;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        .content {
+            background: #fff3e0;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .content img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+        }
+        .section-title {
+            font-size: 2.2em;
+            color: #8B4513;
+            border-bottom: 3px solid #8B4513;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .content p, .content ul {
+            font-size: 1.2em;
+            text-align: justify;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: #8B4513;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <marquee><h1>Comidas Típicas de El Salvador</h1></marquee>
+</header>
+
+<nav>
+    <a href="#pupusas">Pupusas</a>
+    <a href="#tamales">Tamales</a>
+    <a href="#yuca">Yuca Frita y Sancochada</a>
+    <a href="#sopa">Sopas Típicas</a>
+    <a href="#dulces">Dulces Tradicionales</a>
+    <a href="#bebidas">Bebidas Típicas</a>
+    <a href="#curiosidades">Curiosidades</a>
+    <a href="#video">Video</a>
+</nav>
+
+<div class="container">
+
+    <section id="pupusas" class="content">
+        <h2 class="section-title">Pupusas</h2>
+        <p>El plato más emblemático de El Salvador. Son tortillas gruesas de maíz rellenas de queso, frijoles, chicharrón o combinaciones como revueltas o con loroco. Se acompañan con curtido y salsa de tomate.</p>
+        <p><strong>Ingredientes:</strong> Masa de maíz, queso, frijoles, chicharrón, loroco.</p>
+        <img src="imagenes/pupusas.jpg" alt="Pupusas">
+    </section>
+
+    <section id="tamales" class="content">
+        <h2 class="section-title">Tamales</h2>
+        <p>Se preparan con masa de maíz y pueden ser de elote, pollo o con salsa roja. Se envuelven en hojas de plátano y se cocinan al vapor.</p>
+        <p><strong>Variedades:</strong> Tamal de elote (dulce), tamal pisque (con frijoles), tamal de pollo.</p>
+        <img src="imagenes/tamales.jpg" alt="Tamales">
+    </section>
+
+    <section id="yuca" class="content">
+        <h2 class="section-title">Yuca Frita y Sancochada</h2>
+        <p>La yuca se sirve frita o hervida y se acompaña con chicharrón, curtido y salsa.</p>
+        <p><strong>Ingredientes:</strong> Yuca, chicharrón, curtido, salsa de tomate.</p>
+        <img src="imagenes/yuca.jpg" alt="Yuca Frita y Sancochada">
+    </section>
+
+    <section id="sopa" class="content">
+        <h2 class="section-title">Sopas Típicas</h2>
+        <ul>
+            <li><strong>Sopa de Res:</strong> Hecha con carne de res, verduras y yuca.</li>
+            <li><strong>Sopa de Pata:</strong> Con pata de res, verduras y especias.</li>
+            <li><strong>Sopa de Gallina India:</strong> Caldo con gallina de campo y verduras.</li>
+        </ul>
+        <img src="imagenes/sopas.jpg" alt="Sopas típicas">
+    </section>
+
+    <section id="dulces" class="content">
+        <h2 class="section-title">Dulces Tradicionales</h2>
+        <ul>
+            <li>Empanadas de plátano.</li>
+            <li>Alboroto (palomitas caramelizadas).</li>
+            <li>Quesadilla salvadoreña (pastel de queso).</li>
+        </ul>
+        <img src="imagenes/dulces.jpg" alt="Dulces típicos">
+    </section>
+
+    <section id="bebidas" class="content">
+        <h2 class="section-title">Bebidas Típicas</h2>
+        <ul>
+            <li><strong>Atol de Elote:</strong> Bebida espesa de maíz y leche.</li>
+            <li><strong>Horchata:</strong> Hecha de morro, canela y semillas.</li>
+            <li><strong>Jugo de Caña:</strong> Extracto natural de caña de azúcar.</li>
+        </ul>
+        <img src="imagenes/bebidas.jpg" alt="Bebidas típicas">
+    </section>
+
+    <section id="curiosidades" class="content">
+        <h2 class="section-title">Curiosidades</h2>
+        <ul>
+            <li>Las pupusas tienen su propio día nacional (segundo domingo de noviembre).</li>
+            <li>El atol de elote tiene más de 500 años de historia.</li>
+        </ul>
+    </section>
+
+    <section id="video" class="content">
+        <h2 class="section-title">Video sobre la Gastronomía Salvadoreña</h2>
+        <iframe src="https://www.youtube.com/embed/OqjiJJbbTpc?si=MvQ7nTVAYFKMpF20" title="Video sobre la gastronomía salvadoreña" allowfullscreen></iframe>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Comidas Típicas de El Salvador | <a href="mailto:contacto@comidatipica.com">Contáctanos</a></p>
+</footer>
+
+</body>
+</html>
+
